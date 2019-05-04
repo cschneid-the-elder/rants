@@ -12,8 +12,7 @@ Mainframes have been around for over half a century, and many shops have standar
 
 Considerations and questions you must be able to answer in order to accomplish your goal or have a mainframe person assist you (e.g. on [Stack Overflow](https://stackoverflow.com)).
 
-What operating system?  
-----------------------
+#### What operating system?  
 
 **z/OS** is in common use on mainframes, but there do exist shops that still run one of its ancestors like MVS/XA.  The mainframe operating system traces its roots back to OS/360 first available in 1965.  
 
@@ -23,7 +22,7 @@ What operating system?
 
 **z/Linux** usually runs on top of the **z/VM** hypervisor.  
 
-####In what sort of file does the data reside?  
+#### In what sort of file does the data reside?  
 
 **QSAM** or Queued Sequential Access Method, also commonly called flat files.  
 
@@ -33,8 +32,7 @@ What operating system?
 
 **Unix System Services** files reside in a different file system than QSAM or VSAM.  This will be more familiar to Unix, Linux, and Windows people as it has a directory structure where the classic z/OS file system has none.  
 
-What does the data look like?  
------------------------------
+#### What does the data look like?  
 
 You must know the record layout of the data you wish to retrieve.
 
@@ -68,13 +66,11 @@ Without knowing that the family name is confined to the first 10 bytes, the give
 
 Keep in mind that data in DB2 will likely be normalized and thus you must join the contents of related tables in order to make sense of the data.
 
-Security
---------
+#### Security
 
 Is the data you wish to access covered by privacy legislation?  You may have to provide some evidence that whatever protections are in place to guarantee that only authorized personnel have access to this data on the mainframe are also in place once you have transferred it off of the mainframe.  Such guarantees may have to satisfy an auditor.   
 
-What you need
--------------
+#### What you need
 
 You need to know what operating system holds your data, you need to know what type of file holds your data (a DBMS isn't a type of file but let's let that go for now), and you need to know your record layout(s).  
 
