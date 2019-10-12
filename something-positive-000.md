@@ -6,7 +6,7 @@ __Read__
 
 Read the IBM documentation for products you use.  The Knowledge Centers are right there, waiting for you, veritably stuffed with information.  I don't mean to start at the beginning and just read straight through, I mean look at the table of contents and see what you didn't know was there.  Language Environment or JCL references are good places to start.
 
-Read [SHARE presentations](https://proceedings.share.org) (sometimes called proceedings).  Lots of good stuff there, several orders of magnitude better if you can attend, but if you can't you can still learn from the PDFs available on the web.
+Read [SHARE presentations](https://www.share.org/p/cm/ld/fid=59) (sometimes called proceedings).  Lots of good stuff there, several orders of magnitude better if you can attend, but if you can't you can still learn from the PDFs available on the web.
 
 Read the documentation for ISV products you use.  There's some danger in tying your processes to products that your IT shop may decide to replace, so ask the Sysprogs about the viability of using obscure features.
 
