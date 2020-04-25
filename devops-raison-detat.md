@@ -4,7 +4,7 @@ Humans find it distressing not to be in control.  Users want to be Developers.  
 
 So, under the guise of delivering something (_anything_, really) faster, we adopt this DevOps thing where the first requirement is to restructure the organization.  This shifts the conversation from the technical to the political (don't make that face, politics is just negotiation), thus taking power away from those darn techies who just _won't do as they're told._
 
-One purpose for this reorganization is to remove barriers to _getting things done._  Unfortunately, those barriers probably exist for a reason.
+One purpose for this reorganization is to remove barriers to _getting things done._  Unfortunately, [those barriers probably exist for a reason](https://github.com/cschneid-the-elder/rants/blob/master/bottlenecks-of-our-better-nature.md).
 
 Now I'm going to write a dirty word.  Ready?  Here it is: __support__.  It's a terrible word, and many barriers are erected between people who want to get things done and the getting done of those things in the name of support.
 
