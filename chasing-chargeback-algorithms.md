@@ -18,7 +18,7 @@ You are not in control of the chargeback algorithm.  Actions you take to reduce 
 
 While I realize these are all mainframe examples, the same thing will happen to you in the cloud.  You don't think Amazon, Google, and Microsoft are in business to benefit _you_, do you?  They're in business to squeeze as much money out of you as they can, whilst keeping the cost of changing cloud providers just high enough to make it worth your while to stick with whichever you're using currently.
 
-Those costs aren't just in ${CURRENCY_TYPE}.  Each has, or will have, proprietary features that you'll use because it's easier to do so than not.  Remember, vendor lock-in is a feature from their point of view.
+Those costs aren't just in `${CURRENCY_TYPE}`.  Each has, or will have, proprietary features that you'll use because it's easier to do so than not.  Remember, vendor lock-in is a feature from their point of view.
 
 My point is this: if you're going to reduce costs by chasing the chargeback algorithm, you must commit to _chasing_ the chargeback algorithm.  Whatever dance you do around the edges of the rules, you must be prepared to alter your steps as the rules are altered.  And you are in control of neither the nature nor the rate of change.
 
