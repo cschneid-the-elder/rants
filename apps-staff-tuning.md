@@ -8,7 +8,7 @@ Someone has to understand this stuff.  If not you, then who?
 
 No it's not?  So when you eventually have a throughput problem and the solution is to make your CICS code threadsafe, do you know what that means?  Do you think your management or your users will be happy with bad response times and/or higher bills while you figure it out?  We all remember how well the slogan "Can't someone else do it?" [worked out](https://en.wikipedia.org/wiki/Trash_of_the_Titans).
 
-If your employer wants any of that then they have to train you?  It's a new century, application staff don't get training (of course it's shortsighted and silly and wrong, but the new normal is a race to the bottom).  If you don't know something, dig into [Redbooks](https://www.redbooks.ibm.com), dig into the [Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSLTBW) for your product, *read*.
+If your employer wants any of that then they have to train you?  It's a new century, application staff don't get training (of course it's shortsighted and silly and wrong, but the new normal is a race to the bottom).  If you don't know something, dig into [Redbooks](https://www.redbooks.ibm.com), dig into the [IBM Documentation](https://www.ibm.com/docs/en) for your product, *read*.
 
 Other than "we've always done it this way," why are you still coding single row FETCH and INSERT DB2 operations?  Just because that was the only way your ancestors could code it, that doesn't mean you have to waste limited resources paying obeisance to a time-honored but now known to be inefficient method.
 

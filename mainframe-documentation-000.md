@@ -1,6 +1,6 @@
 To my delight, I'm starting to see more and more mention in articles about programming and programmers that the most valuable skill is being able to figure things out for oneself.
 
-Building on [something I wrote earlier](https://github.com/cschneid-the-elder/rants/blob/master/apps-staff-tuning.md), I'd like to point out that [IBM documentation](https://www.ibm.com/support/knowledgecenter/products/), particularly what is now known as IBM Z (commonly referred to as "mainframe") documentation, is free, detailed, and voluminous.
+Building on [something I wrote earlier](https://github.com/cschneid-the-elder/rants/blob/master/apps-staff-tuning.md), I'd like to point out that [IBM documentation](https://www.ibm.com/docs/en), particularly what is now known as IBM Z (commonly referred to as "mainframe") documentation, is free, detailed, and voluminous.
 
 Learning how to find what you're looking for, and how to understand the particular dialect in which this documentation is written, is essential to managing stress for mainframe staff.  The reference to dialect is to indicate that IBM tends to write documentation enumerating _what_ is possible mostly without providing pragmatic examples of _how_ make use of the features cited.  I value IBM's Knowledge Centers, but their volume could easily be expanded by a third by adding more examples.
 

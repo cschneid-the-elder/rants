@@ -220,7 +220,7 @@ Your shop may have standardized on static CALLs long ago and continues to use th
 
  >> With dynamic CALLs (call literal with DYNAM or call identifier), each subprogram is link-edited separately from the others. They are brought into storage only if they are needed. This is the better way of managing complicated applications.
  
-...which is currently [here](https://www.ibm.com/support/knowledgecenter/en/SS6SG3_6.3.0/perf/using_calls.html) and can be navigated to from the IBM Knowledge Center for COBOL table of contents via Home > Enterprise COBOL for z/OS 6.3.0 > Performance Tuning Guide > COBOL and LE features that affect runtime performance > Using CALLs.
+...which is currently [here](https://www.ibm.com/docs/en/cobol-zos/6.3?topic=performance-using-calls) and can be navigated to from the IBM Documentation for COBOL table of contents via Home > Enterprise COBOL for z/OS 6.3.0 > Performance Tuning Guide > COBOL and LE features that affect runtime performance > Using CALLs.
 
 My personal opinion is that performance benefits are more likely gained via [tuning Language Environment options](https://github.com/cschneid-the-elder/rants/blob/master/apps-tuning-with-le.md).
 
