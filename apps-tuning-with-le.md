@@ -182,4 +182,4 @@ IBM, per a SHARE requirement, makes available a document covering COBOL tuning. 
  + SHARE Session 13669 Look What I Found Under The Bar! by John Monti, August 2013
  + SHARE Session 1502 z/OS Language Environment Setup & Customization by Tom Petrolino, August 2009
  + SHARE Session 1551 Making CICS and LE Play Nice Together by Mark Picard, August 2009
- + [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter)
+ + [IBM Documentation](https://www.ibm.com/docs/en)
