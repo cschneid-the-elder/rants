@@ -2,7 +2,7 @@
 
 ### TL;DR
 
-If you're using LE in a job step, start with an LE-conforming module.  Specify ALL31(ON) and CBLPSHPOP(OFF) when you can.  Specify the CICS AUTODST(ON) SIT option.  Use the LE storage report (RPTSTG(ON)) to get values to use in HEAP and STACK _initSize_ parameters.  Use the defaults for STORAGE if you can, seriously don't specify a value for _dsaAllocValue_ other than NONE.  For PL/I and/or C/C++ applications take a look at HEAPPOOLS.  You may want to implement custom CEEUOPTs for performance critical CICS transactions.
+If you're using LE in a job step, start with an LE-conforming module.  Specify ALL31(ON) and CBLPSHPOP(OFF) when you can.  In specific all-COBOL run units investigate RTEREUS.  Specify the CICS AUTODST(ON) SIT option.  Use the LE storage report (RPTSTG(ON)) to get values to use in HEAP and STACK _initSize_ parameters.  Use the defaults for STORAGE if you can, seriously don't specify a value for _dsaAllocValue_ other than NONE.  For PL/I and/or C/C++ applications take a look at HEAPPOOLS.  You may want to implement custom CEEUOPTs for performance critical CICS transactions.
 
 ### Prefatory Remarks
  
@@ -120,6 +120,16 @@ HEAPPOOLS uses a storage management algorithm which improves the performance of 
 
 I'm only mentioning this so it's not forgotten, unfortunately my experience is inadequate for a detailed discussion.  Please refer to the documentation, or to Mary Astley's excellent session 8210 from SHARE February 2008.  You might be able to get a copy from IBM if you can't get one from SHARE.
 
+### RTEREUS(...)
+
+RTEREUS(_onOrOff_)
+
+ + _onOrOff_ ON indicates the run unit is all COBOL and the LE environment can be safely reused.  OFF indicates multiple languages may participate in the run unit (mixed PL/I and COBOL for example).
+
+There are _a lot_ of caveats on this LE Runtime Option, but if your non-CICS run unit is all COBOL then specifying RTEREUS(ON) can save CPU.
+
+My thanks to John Hosking for bringing this LE Runtime Option to my attention.
+
 ### What Are Your LE Runtime Options?
 
 For batch, run a batch program that uses LE.  Any COBOL program will do, preferably one that doesn't do anything much.
@@ -173,7 +183,7 @@ If you don't need to clear storage after programs are done with it, leave the ST
 
 If your batch job step's initial program is non-LE conforming Assembler, you probably want to either convert that to LE conforming Assembler or write a COBOL stub to call the Assembler program.  It saves on LE setup and teardown.
 
-IBM, per a SHARE requirement, makes available a document covering COBOL tuning.  The most current as of this writing is [here](https://www.ibm.com/support/pages/enterprise-cobol-version-6-release-1-performance-tuning).  For future reference, the naming convention has been COBPFvr.PDF where _v_ is the version number and _r_ is the release number, so COBOL 6.1 would be COBPF61.PDF.
+IBM, per a SHARE requirement, makes available a document covering COBOL tuning.  The most current as of this writing is [here](https://www.ibm.com/docs/en/cobol-zos/6.4?topic=ptg-preface).  For future reference, the historical naming convention for the PDF version has been COBPFvr.PDF where _v_ is the version number and _r_ is the release number, so COBOL 6.1 would be COBPF61.PDF.  Update: that appears to have changed to igyvtgr.pdf where _v_ is the version number and _r_ is the release number, so COBOL 6.4 would be igy6tg40.pdf, in case you want to do an internet search.
 
 ### References
 
@@ -183,3 +193,4 @@ IBM, per a SHARE requirement, makes available a document covering COBOL tuning. 
  + SHARE Session 1502 z/OS Language Environment Setup & Customization by Tom Petrolino, August 2009
  + SHARE Session 1551 Making CICS and LE Play Nice Together by Mark Picard, August 2009
  + [IBM Documentation](https://www.ibm.com/docs/en)
+
