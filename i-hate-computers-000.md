@@ -18,7 +18,7 @@ Our hardware is _fine_, it _works_ fine, we don't _want_ to upgrade to the extra
 
 When iOS 11 came out I looked at the feature list and found exactly zero new features that I cared about.  But I can't get the security updates without a whole new version of iOS, so I have to upgrade.  That's one iOS upgrade that I clearly remember, but most of them are like that.  It's all about Siri, which I turn off because I don't want my devices listening to me.  It's all about 3d touch, which was stupid and is being discontinued.  It's about the camera(s) which were good enough a few years ago and are not a selling point for me.
 
-At least [IBM says](https://www.ibm.com/it-infrastructure/z/capabilities/system-integrity) they'll fix system integrity problems, neither [Apple](https://www.apple.com/legal/sla/docs/macOS1014.pdf) nor [Microsoft](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm) warrant their respective OSs for fitness for purpose _at all._  I guess I need a phone that runs z/OS.
+At least [IBM says](https://public.dhe.ibm.com/eserver/zseries/zos/racf/pdf/zOS_System_Integrity_Statement.pdf) they'll fix system integrity problems, neither [Apple](https://www.apple.com/legal/sla/docs/macOS1014.pdf) nor [Microsoft](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm) warrant their respective OSs for fitness for purpose _at all._  I guess I need a phone that runs z/OS.
 
 And I simply cannot _wait_ for all the vulnerabilities iPadOS will create as it moves the iPad closer to laptop functionality.
 
